@@ -7,8 +7,8 @@ Instead of picking one of many ready-made playsets, you build **one playset of y
 and features you want, together with the general mods you play with. The app fills in what they need, tells you
 what clashes and why, puts them in a working load order and checks them against the current game version.
 
-> **Alpha.** Everything below works on the maintainer's PC; it has not been used on many others yet. Only the newest
-> Stellaris version (4.5.4) is supported. Windows only.
+> **Beta.** Tested on the maintainer's PC and by the first players of the alpha; please report what breaks. Only the
+> newest Stellaris version (4.5.4) is supported. Windows only.
 
 ## What it does
 
@@ -25,7 +25,11 @@ Four steps, with your playset always shown on the right:
    LoversLab login, writes an optional **merge patch** (combines what mods change differently in the same game
    objects), optionally builds **one mod instead of all** of them (loads much faster), and creates the playset in
    the Paradox launcher. Your own local mods and fixes can be ticked in right there, and the creators of your mods
-   who accept support are listed with their pages.
+   who accept support are listed with their pages. Later, when a mod is updated or you change your picks,
+   **Update everything** brings the merge patch, the merged mod and the launcher playset up to date in place.
+
+When Steam updates Stellaris past the version the catalog is checked against, the app warns you and shows how to go
+back to that version (Steam → Properties → Betas).
 
 Behind it, a **catalog** of ~650 mods: every mod's files were read and compared with the game (what it adds,
 which game objects it changes, what the game removed since), most were started in the game (launch tests), and the
@@ -43,8 +47,9 @@ A new version is announced inside the app; nothing updates or installs by itself
 ## What the app does on your PC
 
 - **Reads** your installed mods and your launcher playsets (from a copy of the launcher's database).
-- **Writes only when you click it:** a *new* launcher playset (your existing ones stay as they are; the launcher's
-  database is backed up first, and the app refuses while the launcher or the game runs), mods it downloads into
+- **Writes only when you click it:** a launcher playset – a new one, or in place of one the app made before when you
+  choose that (your own playsets are never changed; the launcher's database is backed up first, and the app refuses
+  while the launcher or the game runs), mods it downloads into
   your Stellaris mod folder (an older copy you have is never overwritten), the merge patch and the merged mod (each
   in its own folder, replaced only by the app's own next build).
 - **Never runs** anything from a downloaded archive; archives are unpacked with Windows' own `tar.exe`.

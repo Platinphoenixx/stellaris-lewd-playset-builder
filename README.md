@@ -8,7 +8,9 @@ and features you want, together with the general mods you play with. The app fil
 what clashes and why, puts them in a working load order and checks them against the current game version.
 
 > **Beta.** Tested on the maintainer's PC and by the first players of the alpha; please report what breaks. Only the
-> newest Stellaris version (4.5.4) is supported. Windows only.
+> newest Stellaris version (4.5.4) is supported. Windows only; players run it on Linux through Proton, untested by
+> the maintainer – where the app does not find the game, the Workshop or the Stellaris user folder by itself, choose them
+> under **Game**.
 
 ## What it does
 

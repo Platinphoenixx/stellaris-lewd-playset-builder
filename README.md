@@ -38,7 +38,8 @@ Workshop comments and LoversLab support threads were read for problem reports.
 ## Install
 
 1. Download the latest version from [Releases](../../releases): the **Setup** file installs the app (for your
-   Windows user, no admin rights), the **portable** file runs without installing.
+   Windows user, no admin rights), the **portable** file runs without installing (keep the **portable-uninstall** file
+   next to it, for removing it cleanly later).
 2. The app is not code-signed, so Windows SmartScreen may warn on first start: *More info → Run anyway*.
 3. Start it. It finds Steam, the game and your Paradox launcher by itself.
 
@@ -53,6 +54,10 @@ A new version is announced inside the app; nothing updates or installs by itself
   your Stellaris mod folder (an older copy you have is never overwritten), the merge patch and the merged mod (each
   in its own folder, replaced only by the app's own next build).
 - **Never runs** anything from a downloaded archive; archives are unpacked with Windows' own `tar.exe`.
+- **Uninstalling** (Windows' settings → Apps, or for the portable app the `…-portable-uninstall.exe` next to it) asks,
+  one question each, whether to remove what the app made outside its program folder too: the launcher playsets it made,
+  merge patches and merged mods, the mods it downloaded from LoversLab, and its own data (picks, LoversLab login,
+  launcher backups). Your own mods and playsets are never touched.
 
 ## What the app talks to
 

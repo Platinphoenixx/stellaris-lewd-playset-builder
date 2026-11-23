@@ -31,7 +31,8 @@ Four steps, with your playset always shown on the right:
    **Update everything** brings the merge patch, the merged mod and the launcher playset up to date in place.
 
 When Steam updates Stellaris past the version the catalog is checked against, the app warns you and shows how to go
-back to that version (Steam → Properties → Betas).
+back to that version (Steam → Properties → Betas). Until the catalog is checked against the new version, the merge patch
+is held back (it is made for the catalog's version), and mods already updated for the new game are named.
 
 Behind it, a **catalog** of ~650 mods: every mod's files were read and compared with the game (what it adds,
 which game objects it changes, what the game removed since), most were started in the game (launch tests), and the

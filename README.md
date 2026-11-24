@@ -8,9 +8,9 @@ and features you want, together with the general mods you play with. The app fil
 what clashes and why, puts them in a working load order and checks them against the current game version.
 
 > **Beta.** Tested on the maintainer's PC and by the first players of the alpha; please report what breaks. Only the
-> newest Stellaris version (4.5.4) is supported. Windows only; players run it on Linux through Proton, untested by
-> the maintainer – where the app does not find the game, the Workshop or the Stellaris user folder by itself, choose them
-> under **Game**.
+> newest Stellaris version (4.5.4) is supported. Made for Windows; since 0.4.5 there is a **Linux beta** – the
+> "Potentially Shitty Vibecoded Version", not tested on Linux by the maintainer. Where the app does not find the game,
+> the Workshop or the Stellaris user folder by itself, choose them under **Game**.
 
 ## What it does
 
@@ -43,6 +43,8 @@ Workshop comments and LoversLab support threads were read for problem reports.
 1. Download the latest version from [Releases](../../releases): the **Setup** file installs the app (for your
    Windows user, no admin rights), the **portable** file runs without installing (keep the **portable-uninstall** file
    next to it, for removing it cleanly later).
+   **Linux beta** ("Potentially Shitty Vibecoded Version", untested): the **linux.tar.gz** – unpack it and run
+   `./start.sh`; README-LINUX.txt inside says what it needs (bsdtar for LoversLab downloads) and where it looks.
 2. The app is not code-signed, so Windows SmartScreen may warn on first start: *More info → Run anyway*.
 3. Start it. It finds Steam, the game and your Paradox launcher by itself.
 
@@ -56,7 +58,7 @@ A new version is announced inside the app; nothing updates or installs by itself
   while the launcher or the game runs), mods it downloads into
   your Stellaris mod folder (an older copy you have is never overwritten), the merge patch and the merged mod (each
   in its own folder, replaced only by the app's own next build).
-- **Never runs** anything from a downloaded archive; archives are unpacked with Windows' own `tar.exe`.
+- **Never runs** anything from a downloaded archive; archives are unpacked with Windows' own `tar.exe` (on Linux with `bsdtar`).
 - **Uninstalling** (Windows' settings → Apps, or for the portable app the `…-portable-uninstall.exe` next to it) asks,
   one question each, whether to remove what the app made outside its program folder too: the launcher playsets it made,
   merge patches and merged mods, the mods it downloaded from LoversLab, and its own data (picks, LoversLab login,

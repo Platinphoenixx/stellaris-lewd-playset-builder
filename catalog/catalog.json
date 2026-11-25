@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-24T23:37:59.998Z",
+ "generatedAt": "2026-11-25T21:14:36.491Z",
  "minAppVersion": "0.4.6",
  "game": {
   "version": "4.5.4",
@@ -47268,21 +47268,24 @@
     {
      "name": "Platinphoenixx",
      "url": "https://www.loverslab.com/profile/438159-platinphoenixx/"
+    },
+    {
+     "name": "Zedler"
     }
    ],
    "sources": [
     {
      "site": "loverslab",
      "fileId": 8719,
-     "fileName": "Lustful Void - 4.6 Fix 1.0.zip",
+     "fileName": "Lustful Void - 4.6 Fix 1.1.zip",
      "folder": "Lustful Void - 4.6 Fix",
      "supportTopic": "https://www.loverslab.com/topic/119724-x/",
-     "attachment": "https://www.loverslab.com/applications/core/interface/file/attachment.php?id=2721384&key=bd6935802f19b8711e66f29147825540"
+     "attachment": "https://www.loverslab.com/applications/core/interface/file/attachment.php?id=2721768&key=5f53c9cf724f2215f96efde6e484fc24"
     }
    ],
    "descriptor": {
     "name": "Lustful Void - 4.6 Fix",
-    "version": "1.0",
+    "version": "1.1",
     "supportedVersion": "v4.6.*"
    },
    "match": {
@@ -47290,10 +47293,10 @@
      "lustful void - 4.6 fix"
     ]
    },
-   "latestVersion": "1.0",
-   "updated": "2026-11-24",
+   "latestVersion": "1.1",
+   "updated": "2026-11-25",
    "forGame": "4.6",
-   "summary": "For Stellaris 4.6 only, until Lustful Void 0.8.0.2 gets its own 4.6 update: LV's name lists are read again (4.6 rejects files with a UTF-8 BOM), its city zone can hold buildings again (include → included_buildings), and its influential-jobs workforce bonus includes 4.6's Culture Worker jobs. No new content. Load it after Lustful Void.",
+   "summary": "For Stellaris 4.6 only, until Lustful Void 0.8.0.2 gets its own 4.6 update: LV's name lists are read again (4.6 rejects files with a UTF-8 BOM), its city zone can hold buildings again (include → included_buildings), and its influential-jobs workforce bonus includes 4.6's Culture Worker jobs. Since 1.1 with Zedler's fixes to LV itself (district icons and conversion, game-start grants). Load it after Lustful Void.",
    "relations": [
     {
      "type": "patches",
@@ -47310,19 +47313,19 @@
    ],
    "verdict": {
     "kind": "likely-ok",
-    "note": "The maintainer's fix of Lustful Void 0.8.0.2 for Stellaris 4.6.0 (curator/lv-46-fix.ts), posted 2026-11-24 in LV's support thread. Offered only when the installed game is 4.6 or newer.",
+    "note": "The maintainer's fix of Lustful Void 0.8.0.2 for Stellaris 4.6.0 (curator/lv-46-fix.ts), posted in LV's support thread; 1.1 (2026-11-25) adds Zedler's fixes to LV itself. Offered only when the installed game is 4.6 or newer.",
     "checked": "2026-11-25",
     "evidence": [
      {
       "kind": "support-thread",
-      "url": "https://www.loverslab.com/topic/119724-mod-stellaris-lustful-void/page/179/#findComment-7454443",
-      "date": "2026-11-24",
+      "url": "https://www.loverslab.com/topic/119724-mod-stellaris-lustful-void/page/179/#findComment-7455306",
+      "date": "2026-11-25",
       "author": "Platinphoenixx",
-      "text": "Fixed for 4.6. No new content added. – Lustful Void - 4.6 Fix 1.0.zip"
+      "text": "My 4.6 Fixes. Includes additional fixes unrelated to 4.6 by Zedler. – Lustful Void - 4.6 Fix 1.1.zip"
      },
      {
       "kind": "launch-test",
-      "text": "Stellaris 4.6.0 copy (curator/work/launch-tests/lv-4.6.0): Lustful Void alone 279 new error lines, with the fix 2 – both the game using LV's intended overrides (district_city, has_encountered_other_species). Not tested in a running game."
+      "text": "Stellaris 4.6.0 copy (curator/work/launch-tests/lv-4.6.0): Lustful Void alone 279 new error lines, with the fix 2 – both the game using LV's intended overrides (district_city, has_encountered_other_species); 1.1 adds none. Not tested in a running game."
      }
     ]
    }

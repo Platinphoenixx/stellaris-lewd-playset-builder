@@ -68,8 +68,8 @@ A new version is announced inside the app; nothing updates or installs by itself
 
 ## What the app talks to
 
-- **GitHub**, at most once a day: whether a new app version exists, and (since 0.4.7) whether the catalog is newer –
-  then it is downloaded and used, without a new app version.
+- **GitHub**: once a day whether a new app version exists, and (since 0.4.7) every two hours whether the catalog is
+  newer – then it is downloaded and used from the next start, without a new app version.
 - **Steam** only when you subscribe mods (through your running Steam client), **LoversLab** only when you log in or
   download (in a window of the app, with your login; the login stays in the app). Pictures are loaded from the
   mods' pages.

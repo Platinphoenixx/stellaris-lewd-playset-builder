@@ -1,11 +1,12 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-25T21:14:36.491Z",
+ "generatedAt": "2026-11-26T01:31:01.386Z",
  "minAppVersion": "0.4.6",
  "game": {
   "version": "4.5.4",
   "compat": "4.5",
-  "codename": "Cygnus"
+  "codename": "Cygnus",
+  "note": "Stellaris 4.6 is not supported yet: most mods are still being updated for it. Stay on 4.5.4 until then (Steam → Stellaris → Properties → Betas → 4.5.4)."
  },
  "categories": [
   {

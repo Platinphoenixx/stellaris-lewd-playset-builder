@@ -1,0 +1,12 @@
+{
+ "schemaVersion": 1,
+ "updated": "2026-11-26T02:00:00Z",
+ "_doc": "Lines shown in the app without an app release (app/src/shared/announcements.ts has the format). Publish with node curator/publish-catalog.ts --push; apps from 0.4.9 on show them within two hours. A changed text needs a new id (dismissed ids stay hidden). Bump 'updated' with every change.",
+ "items": [
+  {
+   "id": "4.6-coming-soon",
+   "text": "Stellaris 4.6 update coming soon! The mods are being checked against 4.6 while their authors update them – until then the app supports 4.5.4.",
+   "tone": "info"
+  }
+ ]
+}
